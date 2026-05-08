@@ -1,0 +1,21 @@
+Ciclo automatico 1
+  - Lecturas: temp=30.5C movimiento=True ventana=False puerta=False ausente=False
+  - Movimiento controla iluminacion -> IoT0 Light = On
+  - Temperatura/ventana controla ventilacion -> IoT6 Ceiling Fan = High
+  - Temperatura controla climatizacion -> IoT7 Thermostat = Cooling
+  - Modo ausente controla alarma -> IoT4 Siren = Off
+  - Estado de puerta principal replica cerradura -> door1 Door = Lock
+Ciclo automatico 2
+  - Lecturas: temp=31.0C movimiento=True ventana=True puerta=False ausente=True
+  - Movimiento controla iluminacion -> IoT0 Light = On
+  - Temperatura/ventana controla ventilacion -> IoT6 Ceiling Fan = Off
+  - Temperatura controla climatizacion -> IoT7 Thermostat = Cooling
+  - Modo ausente controla alarma -> IoT4 Siren = On
+  - Estado de puerta principal replica cerradura -> door1 Door = Lock
+Ciclo automatico 3
+  - Lecturas: temp=22.0C movimiento=False ventana=False puerta=True ausente=True
+  - Movimiento controla iluminacion -> IoT0 Light = Off
+  - Temperatura/ventana controla ventilacion -> IoT6 Ceiling Fan = Off
+  - Temperatura controla climatizacion -> IoT7 Thermostat = Off
+  - Modo ausente controla alarma -> IoT4 Siren = On
+  - Estado de puerta principal replica cerradura -> door1 Door = Unlock

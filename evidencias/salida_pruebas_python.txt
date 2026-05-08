@@ -1,0 +1,3 @@
+OK - test_movimiento_enciende_luz_y_clima_alto
+OK - test_ventana_abierta_apaga_ventilador_y_activa_alarma_si_ausente
+OK - test_puerta_abierta_en_modo_ausente_activa_alarma_y_desbloquea
